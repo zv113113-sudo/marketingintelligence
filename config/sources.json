@@ -1,0 +1,741 @@
+{
+  "topic_quota": {
+    "marketing": 23,
+    "martech": 10,
+    "consumer": 17,
+    "b2b_gtm": 10
+  },
+  "editorial_profile": {
+    "max_daily_martech_share": 0.25,
+    "max_commercial_items": 1,
+    "source_weekly_caps": {
+      "AdExchanger": 2
+    }
+  },
+  "sources": [
+    {
+      "region": "RU",
+      "name": "Kommersant",
+      "kind": "website",
+      "url": "https://www.kommersant.ru/lenta",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "RBC Tech & Media",
+      "kind": "website",
+      "url": "https://www.rbc.ru/technology_and_media/",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Vedomosti Business",
+      "kind": "rss",
+      "url": "https://www.vedomosti.ru/rss/rubric/business",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Vedomosti Technology",
+      "kind": "rss",
+      "url": "https://www.vedomosti.ru/rss/rubric/technology",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Sostav",
+      "kind": "website",
+      "url": "https://www.sostav.ru/",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "AdIndex",
+      "kind": "website",
+      "url": "https://adindex.ru/",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "VC.ru",
+      "kind": "rss",
+      "url": "https://vc.ru/rss",
+      "tier": "B"
+    },
+    {
+      "region": "RU",
+      "name": "Кабачковая икра",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/sale_caviar",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Дизраптор",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/disruptors_official",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Бескромный",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/dbeskromny",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "Русский маркетинг",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/smmrus",
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "name": "СберМаркетинг",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/sbermarketing",
+      "tier": "B"
+    },
+    {
+      "region": "US",
+      "name": "Marketing Brew",
+      "kind": "website",
+      "url": "https://www.marketingbrew.com/",
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "name": "MarTech",
+      "kind": "website",
+      "url": "https://martech.org/",
+      "tier": "A",
+      "enabled": false,
+      "disabled_reason": "Beget VPS repeatedly returned HTTP 403 through 2026-09-03"
+    },
+    {
+      "region": "US",
+      "name": "Modern Retail",
+      "kind": "website",
+      "url": "https://www.modernretail.co/",
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "name": "TechCrunch",
+      "kind": "website",
+      "url": "https://techcrunch.com/",
+      "tier": "B"
+    },
+    {
+      "region": "US",
+      "name": "The Verge",
+      "kind": "website",
+      "url": "https://www.theverge.com/",
+      "tier": "B"
+    },
+    {
+      "region": "US",
+      "name": "Think with Google",
+      "kind": "website",
+      "url": "https://www.thinkwithgoogle.com/",
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "name": "Meta Newsroom",
+      "kind": "website",
+      "url": "https://about.fb.com/news/",
+      "tier": "B"
+    },
+    {
+      "region": "US",
+      "name": "TikTok Newsroom",
+      "kind": "website",
+      "url": "https://newsroom.tiktok.com/en-us/",
+      "tier": "B"
+    },
+    {
+      "region": "US",
+      "name": "Amazon Ads",
+      "kind": "website",
+      "url": "https://advertising.amazon.com/blog",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "Marketing Week",
+      "kind": "website",
+      "url": "https://www.marketingweek.com/",
+      "tier": "A",
+      "enabled": false,
+      "disabled_reason": "Beget VPS repeatedly returned HTTP 403 through 2026-09-03"
+    },
+    {
+      "region": "EU",
+      "name": "WARC",
+      "kind": "website",
+      "url": "https://www.warc.com/",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "Contagious",
+      "kind": "website",
+      "url": "https://www.contagious.com/",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "IAB Europe",
+      "kind": "website",
+      "url": "https://iabeurope.eu/knowledge-hub/",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "YouGov Consumer",
+      "kind": "website",
+      "url": "https://yougov.com/content/consumer",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "Kantar",
+      "kind": "website",
+      "url": "https://www.kantar.com/inspiration",
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "name": "Eurostat News",
+      "kind": "website",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news",
+      "tier": "B"
+    },
+    {
+      "region": "EU",
+      "name": "PwC Consumer Markets",
+      "kind": "website",
+      "url": "https://www.pwc.com/gx/en/industries/consumer-markets.html",
+      "tier": "B"
+    },
+    {
+      "region": "CN",
+      "name": "36Kr Global",
+      "kind": "website",
+      "url": "https://www.36krglobal.com/",
+      "tier": "A"
+    },
+    {
+      "region": "CN",
+      "track": "consumer",
+      "name": "36Kr 中文",
+      "kind": "website",
+      "url": "https://36kr.com/",
+      "tier": "A"
+    },
+    {
+      "region": "CN",
+      "track": "consumer",
+      "name": "Jing Daily",
+      "kind": "website",
+      "url": "https://jingdaily.com/",
+      "tier": "A"
+    },
+    {
+      "region": "CN",
+      "track": "consumer",
+      "name": "China Skinny",
+      "kind": "website",
+      "url": "https://chinaskinny.com/blog",
+      "tier": "A"
+    },
+    {
+      "region": "CN",
+      "track": "marketing",
+      "name": "WalkTheChat",
+      "kind": "website",
+      "url": "https://walkthechat.com/blog/",
+      "tier": "A"
+    },
+    {
+      "region": "CN",
+      "track": "martech",
+      "name": "SCMP Tech",
+      "kind": "website",
+      "url": "https://www.scmp.com/tech",
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Clay",
+      "kind": "website",
+      "url": "https://www.clay.com/blog",
+      "include_paths": [
+        "/blog/"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "6sense",
+      "kind": "website",
+      "url": "https://6sense.com/blog/",
+      "include_paths": [
+        "/blog/"
+      ],
+      "tier": "A",
+      "enabled": false,
+      "disabled_reason": "Beget VPS returned HTTP 403 on 2026-08-27"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Demandbase",
+      "kind": "website",
+      "url": "https://www.demandbase.com/blog/",
+      "include_paths": [
+        "/blog/"
+      ],
+      "exclude_paths": [
+        "/blog/page/"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "B2B Marketing",
+      "kind": "website",
+      "url": "https://www.b2bmarketing.net/articles/",
+      "include_paths": [
+        "/articles/"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "HubSpot Marketing",
+      "kind": "website",
+      "url": "https://blog.hubspot.com/marketing",
+      "include_paths": [
+        "/marketing/"
+      ],
+      "exclude_paths": [
+        "/marketing/page/",
+        "/marketing/author/"
+      ],
+      "tier": "B"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Salesforce",
+      "kind": "website",
+      "url": "https://www.salesforce.com/blog/",
+      "include_paths": [
+        "/blog/"
+      ],
+      "tier": "B"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Common Room",
+      "kind": "website",
+      "url": "https://www.commonroom.io/blog/",
+      "include_paths": [
+        "/blog/"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Mutiny",
+      "kind": "website",
+      "url": "https://www.mutinyhq.com/blog",
+      "include_paths": [
+        "/blog/"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "track": "martech",
+      "name": "AdExchanger",
+      "kind": "website",
+      "url": "https://www.adexchanger.com/",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "track": "martech",
+      "name": "Search Engine Land",
+      "kind": "rss",
+      "url": "https://searchengineland.com/feed",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "track": "marketing",
+      "name": "Digiday",
+      "kind": "website",
+      "url": "https://digiday.com/",
+      "source_class": "independent_editorial",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "track": "marketing",
+      "name": "IPA Effectiveness",
+      "kind": "website",
+      "url": "https://ipa.co.uk/knowledge/effectiveness-research-analysis/",
+      "include_paths": [
+        "/knowledge/"
+      ],
+      "source_class": "research_institute",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Ehrenberg-Bass",
+      "kind": "website",
+      "url": "https://marketingscience.info/news-and-insights",
+      "source_class": "research_institute",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "track": "marketing",
+      "name": "System1 Creative Effectiveness",
+      "kind": "rss",
+      "url": "https://system1group.com/feed/",
+      "source_class": "research_vendor",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "LinkedIn B2B Institute",
+      "kind": "website",
+      "url": "https://www.linkedin.com/business/marketing/blog/research-and-insights",
+      "include_paths": [
+        "/business/marketing/blog/"
+      ],
+      "source_class": "platform_research",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "US",
+      "track": "marketing",
+      "name": "SparkToro Authors",
+      "kind": "rss",
+      "url": "https://sparktoro.com/blog/feed/",
+      "source_class": "author_led",
+      "max_items": 8,
+      "tier": "A",
+      "enabled": false,
+      "disabled_reason": "Beget VPS returned HTTP 403 on 2026-09-03"
+    },
+    {
+      "region": "B2B",
+      "track": "b2b_gtm",
+      "name": "Growth Unhinged",
+      "kind": "rss",
+      "url": "https://kylepoyar.substack.com/feed",
+      "source_class": "author_led",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "EU",
+      "track": "marketing",
+      "name": "Tom Roach",
+      "kind": "rss",
+      "url": "https://thetomroach.com/feed/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Science Says",
+      "kind": "website",
+      "url": "https://app.sciencesays.com/",
+      "include_paths": [
+        "/p/"
+      ],
+      "source_class": "research_digest",
+      "max_items": 8,
+      "tier": "A",
+      "enabled": false,
+      "disabled_reason": "Beget VPS returned HTTP 403 on 2026-09-03"
+    },
+    {
+      "region": "RU",
+      "track": "marketing",
+      "name": "Упал, поднялся / Слава Рюмин",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/ruminblog",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "b2b_gtm",
+      "name": "Паша Молянов",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/molyanov_blog",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "martech",
+      "name": "AI of the Day",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/aioftheday",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "b2b_gtm",
+      "name": "Startup of the Day",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/startupoftheday",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "b2b_gtm",
+      "name": "Ваня Замесин",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/zamesin",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "b2b_gtm",
+      "name": "Дарья Васянина",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/dashich_begi",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "b2b_gtm",
+      "name": "Роман Кумар Виас",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/solokumi",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "consumer",
+      "name": "E-commerce Россия",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/ecomnews",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "consumer",
+      "name": "Простая аналитика",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/prostoanalytics",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "consumer",
+      "name": "Беспощадный ритейл",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/b_retail",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "RU",
+      "track": "consumer",
+      "name": "Market Metrics Online",
+      "kind": "telegram_public",
+      "url": "https://t.me/s/marketmetricsonline",
+      "source_class": "independent_author",
+      "max_items": 10,
+      "tier": "B"
+    },
+    {
+      "region": "ASIA",
+      "track": "marketing",
+      "name": "Campaign Asia",
+      "kind": "website",
+      "url": "https://www.campaignasia.com/",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "The Drum",
+      "kind": "website",
+      "url": "https://www.thedrum.com/",
+      "source_class": "independent_editorial",
+      "max_items": 10,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Creative Review",
+      "kind": "website",
+      "url": "https://www.creativereview.co.uk/",
+      "source_class": "independent_editorial",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Lürzer's Archive",
+      "kind": "website",
+      "url": "https://www.luerzersarchive.com/",
+      "source_class": "independent_editorial",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "consumer",
+      "name": "Counter-Intuitive Insights",
+      "kind": "website",
+      "url": "https://www.linkedin.com/newsletters/counter-intuitive-insights-7023024390896295936",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Mark Ritson",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/markritson/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Rory Sutherland",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/rorysutherland/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Ethan Mollick",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/emollick/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "martech",
+      "name": "Benedict Evans",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/benedictevans/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "b2b_gtm",
+      "name": "April Dunford",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/aprildunford/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "Scott Galloway",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/profscottgalloway/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "B"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "b2b_gtm",
+      "name": "Lenny Rachitsky",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "b2b_gtm",
+      "name": "Brian Balfour",
+      "kind": "website",
+      "url": "https://www.linkedin.com/in/brianbalfour/",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    },
+    {
+      "region": "GLOBAL",
+      "track": "marketing",
+      "name": "April Dunford Newsletter",
+      "kind": "website",
+      "url": "https://www.linkedin.com/newsletters/positioning-with-april-dunford-6995531467804313600",
+      "source_class": "independent_author",
+      "max_items": 8,
+      "tier": "A"
+    }
+  ]
+}
