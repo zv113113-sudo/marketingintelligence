@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+**/*.env
+state/
+outputs/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.zip
+Run-Today-Retest.cmd

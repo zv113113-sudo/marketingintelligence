@@ -1,0 +1,9 @@
+MARKETING INTELLIGENCE — КОРОТКИЕ КОМАНДЫ
+
+python3 setup_access.py  — один раз разрешить безопасное обновление по SSH
+python3 update.py  — установить самый свежий marketing_intel_v*.zip
+python3 test.py    — проверить без Telegram и без изменения истории
+python3 send.py    — рабочий запуск с отправкой в Telegram
+
+update.py сохраняет .env, state и backups, проверяет Python и sources.json,
+создаёт резервную копию заменяемых файлов и восстанавливает её при ошибке.
